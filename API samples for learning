@@ -1,0 +1,35 @@
+GET:
+
+https://jsonplaceholder.typicode.com/todos          --200 records
+https://jsonplaceholder.typicode.com/photos         --5000 records
+https://jsonplaceholder.typicode.com/comments       --500 comments
+https://jsonplaceholder.typicode.com/albums         -- 200 albums
+https://jsonplaceholder.typicode.com/posts          --100 posts
+https://jsonplaceholder.typicode.com/users          --10 users
+
+
+Routes
+All HTTP methods are supported.
+
+GET	/posts
+GET	/posts/1
+GET	/posts/1/comments
+GET	/comments?postId=1
+GET	/posts?userId=1
+POST	/posts
+PUT	/posts/1
+PATCH	/posts/1
+DELETE	/posts/1
+
+
+
+
+
+
+SAMPLE POST:
+{
+  id: 1,
+  title: '[...]',
+  body: '[...]',
+  userId: 1
+}
